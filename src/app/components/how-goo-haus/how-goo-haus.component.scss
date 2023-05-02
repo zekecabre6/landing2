@@ -6,15 +6,12 @@
   height: 100vh;
 
   .title {
-    text-align: center;
-    font-size: 2.5vw;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: red;
-
-    p {
-      font-size: 0.9vw;
+    h2 {
+      text-align: center;
+      font-size: 2.5vw;
+      font-weight: 600;
       margin-bottom: 1rem;
+      color: red;
     }
   }
 
@@ -24,6 +21,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    gap: 1rem;
     .maindesc {
       display: flex;
       flex-direction: column;
@@ -40,7 +38,7 @@
       video {
         width: 100%;
         min-width: 350px;
-        border-radius: 1.5rem ;
+        border-radius: 1.5rem;
         max-width: 900px;
       }
     }
@@ -51,10 +49,44 @@
   .main_goohaus {
     .flex-goohaus {
       flex-direction: column;
-      gap: 0;
-      height:  50%;
+      gap: 1rem;
       .maindesc {
         gap: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main_goohaus {
+    .flex-goohaus {
+      .maindesc {
+        height: 60%;
+      }
+      .video_section {
+        video {
+          min-width: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main_goohaus {
+    .title {
+      h2 {
+        font-size: 4vw !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .main_goohaus {
+    .title {
+      h2 {
+        font-size: 6vw !important;
       }
     }
   }

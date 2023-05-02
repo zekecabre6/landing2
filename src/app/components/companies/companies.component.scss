@@ -29,3 +29,31 @@
       }
   }
 }
+
+@media ( max-width : 768px) {
+  .titles{
+    h2{
+      font-size: 4vw !important;
+    }
+    p{
+      font-size: 1.5vw !important;
+    }
+  }
+  .companies-img{
+    height: 50% !important;
+  }
+}
+
+@media ( max-width: 576px) {
+  .titles{
+    h2{
+      font-size: 6vw !important;
+    }
+    p{
+      font-size: 2vw !important;
+    }
+  }
+  .companies-img{
+    height: 50% !important;
+  }
+}

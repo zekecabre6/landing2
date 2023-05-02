@@ -21,8 +21,10 @@
     width: 100%;
 
     .navbar-brand {
+      display: flex;
+      align-items: center;
       img {
-        height: 10vw;
+        height: 4vw;
         max-height: 50px;
         width: auto;
       }
@@ -66,7 +68,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 560px) {
   .navbar {
     padding: 0 15px;
 

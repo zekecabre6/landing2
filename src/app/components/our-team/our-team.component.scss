@@ -3,8 +3,9 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     .titles{
+      margin-bottom: 2rem;
         text-align: center;
         h2{
           font-size: 2.5vw;
@@ -32,7 +33,8 @@
         cursor: pointer;
         border-radius: 6px;
         h3{
-          font-size: 1vw;
+          margin-top: 0.5rem;
+          font-size: 1rem;
           font-weight: 600;
         }
         img{
@@ -62,7 +64,7 @@
           }
         }
         p{
-          font-size: 0.6vw;
+          font-size: 0.8rem;
           color: rgb(185, 185, 185);
           margin-bottom: 2rem;
         }
@@ -94,5 +96,28 @@
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+
+@media ( max-width : 768px) {
+  .titles{
+    h2{
+      font-size: 4vw !important;
+    }
+    p{
+      font-size: 1.5vw !important;
+    }
+  }
+}
+
+@media ( max-width: 576px) {
+  .titles{
+    h2{
+      font-size: 6vw !important;
+    }
+    p{
+      font-size: 2vw !important;
+    }
   }
 }
