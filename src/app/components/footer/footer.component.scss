@@ -1,0 +1,28 @@
+.footer-main {
+  padding: 0 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+
+  .footer-container {
+    width: 100%;
+  }
+  .value {
+    color: red;
+  }
+  .footer-2 {
+    display: flex;
+    .column_desc {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.footer-img-2 {
+  margin-right: 10px;
+}
