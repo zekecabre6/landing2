@@ -8,7 +8,6 @@ import { Component, HostListener } from '@angular/core';
 export class NavbarHomeComponent  {
 
   isScrolled = false;
-  linkColor = 'white';
 
 
   @HostListener('window:scroll')
@@ -20,15 +19,6 @@ export class NavbarHomeComponent  {
       this.isScrolled = false;
     }
 
-    const serviceSection = document.querySelector('#Service') as HTMLElement;
-    if (serviceSection) {
-      const serviceOffset = serviceSection.offsetTop - 50;
-      if (offset >= serviceOffset) {
-        this.linkColor = 'black';
-      } else {
-        this.linkColor = 'white';
-      }
-    }
 
   }
 

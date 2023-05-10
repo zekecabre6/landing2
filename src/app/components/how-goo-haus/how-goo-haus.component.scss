@@ -3,15 +3,19 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 
   .title {
+    color: #262B44;
     h2 {
       text-align: center;
       font-size: 2.5vw;
       font-weight: 600;
+    }
+    p {
+      font-size: 0.9vw;
       margin-bottom: 1rem;
-      color: red;
+      padding-bottom: 1rem;
     }
   }
 
@@ -28,6 +32,13 @@
       height: 100%;
       justify-content: center;
       gap: 2rem;
+      .desc{
+        background-color: #262B44;
+        color: #fff;
+        padding: 1rem;
+        min-height: 8rem;
+        border-radius: 8px;
+      }
     }
     .video_section {
       display: flex;
@@ -35,11 +46,21 @@
       justify-content: center;
       align-items: center;
       width: 100%;
+      gap: 2rem;
       video {
         width: 100%;
         min-width: 350px;
         border-radius: 1.5rem;
         max-width: 900px;
+      }
+      button{
+        background-color: red;
+        color: #ffffff;
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
       }
     }
   }
@@ -77,6 +98,9 @@
     .title {
       h2 {
         font-size: 4vw !important;
+      }
+      p{
+        font-size: 1.5vw !important;
       }
     }
   }

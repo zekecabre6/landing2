@@ -4,6 +4,7 @@
     align-items: center;
     width: 100%;
     min-height: 100vh;
+    margin-bottom: 4rem;
     .titles{
       margin-bottom: 2rem;
         text-align: center;
@@ -11,10 +12,11 @@
           font-size: 2.5vw;
           font-weight: 600;
           margin-bottom: 1rem;
-          color: red;
+          color: #262B44;
         }
         p{
           font-size: 0.9vw;
+          color: #262B44;
         }
     }
     .team-img{
@@ -28,10 +30,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: inherit;
         padding: 1rem 3rem;
         cursor: pointer;
         border-radius: 6px;
+        max-width: 30%;
+        box-shadow: 0 2px 6px 0 rgba(0,0,0,0.1);
+        min-height: 35rem;
         h3{
           margin-top: 0.5rem;
           font-size: 1rem;
@@ -39,23 +44,18 @@
         }
         img{
           border-radius: 50%;
-          max-height: 150px;
-          max-width: 150px;
+          max-height: 250px;
+          max-width: 250px;
           object-fit: cover;
         }
         ul{
-          display: none;
-          width: 100%;
+          display: flex;
           justify-content: space-around;
-          animation: animationReveal 0.5s forwards;
-          width: 70%;
-          position: absolute;
-          bottom: 5%;
           list-style: none;
           a{
             fa-icon{
               transition: all 0.5s;
-              color: rgb(185, 185, 185);
+              color: #4D4D4D;
               &:hover{
                 color: red;
                 transition: all 0.5s;
@@ -65,21 +65,8 @@
         }
         p{
           font-size: 0.8rem;
-          color: rgb(185, 185, 185);
+          color: #4D4D4D;
           margin-bottom: 2rem;
-        }
-        &:hover{
-          transform: scale(1.1) translateY(-10px);
-          box-shadow: 0 2px 6px 0 rgba(0,0,0,0.1);
-          transition: all 0.5s;
-          img{
-            transition: all 0.5s;
-            transform: scale(1.1);
-            margin-bottom: 1rem;
-          }
-          ul{
-            display: flex;
-          }
         }
         a{
             color: rgb(0, 0, 0);
@@ -88,17 +75,19 @@
   }
 }
 
-@keyframes animationReveal {
-  0% {
-    opacity: 0;
-    transform: translateX(-100px);
+@media screen and (max-width: 1200px) {
+  .team-img{
+    gap: 2rem;
+    div{
+      max-width: 40% !important;
+      img{
+        width: 10rem;
+        height: 10rem;
+      }
+    }
   }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 
+}
 
 @media ( max-width : 768px) {
   .titles{
@@ -107,6 +96,17 @@
     }
     p{
       font-size: 1.5vw !important;
+    }
+  }
+  .team-img{
+    flex-direction: column;
+    gap: 2rem;
+    div{
+      max-width: 100% !important;
+      img{
+        width: 8rem;
+        height: 8rem;
+      }
     }
   }
 }

@@ -13,11 +13,12 @@
       font-size: 2.5vw;
       font-weight: 600;
       margin-bottom: 1rem;
-      color: red;
+      color: #4D4D4D;
     }
     p {
       font-size: 0.9vw;
       margin-bottom: 1rem;
+      color: #4D4D4D;
     }
   }
   .container-first{
@@ -30,17 +31,24 @@
         display: flex;
         flex-direction: row;
         gap: 2rem;
+        width: 100%;
+        img{
+          width: 50%;
+          height: 100%;
+          object-fit: fill;
+        }
         .text-section{
           display: flex;
           flex-direction: column;
           justify-content: center;
           padding: 0 2rem;
-          width: 40vw;
-          background-color: #F6F3FF;
+          width: 50%;
+          background-color: #FFF3F4;
           h3{
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             font-weight: 600;
             margin-bottom: 1rem;
+            text-align: center;
           }
           p{
             font-size: 1rem;
@@ -57,17 +65,25 @@
         display: flex;
         flex-direction: row-reverse;
         gap: 2rem;
+        width: 100%;
+        img{
+          width: 50%;
+          height: 100%;
+          object-fit: fill;
+        }
         .text-section{
           display: flex;
           flex-direction: column;
           justify-content: center;
           padding: 0 2rem;
-          width: 40vw;
-          background-color: #F6F3FF;
+          background-color: #FFF3F4;
+          width: 50%;
           h3{
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             font-weight: 600;
             margin-bottom: 1rem;
+            margin-top: 1rem;
+            text-align: center;
           }
           p{
             font-size: 1rem;
@@ -79,32 +95,6 @@
           }
         }
       }
-  }
-  .button{
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    button{
-      margin: 2rem;
-      width: 200px;
-      height: 50px;
-      border: none;
-      border-radius: 6px;
-      background-color: rgb(255, 255, 255);
-      color: #ff0000;
-      border: 1px #ff0000 solid;
-      font-size: 1rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.5s;
-      &:hover{
-        background-color: #ff0000;
-        color:#fff;
-        transition: all 0.5s;
-      }
-    }
   }
 }
 
@@ -124,9 +114,15 @@
       }
       .first_col{
         flex-direction: column;
+        img{
+          width: 100%;
+        }
       }
       .second_col{
         flex-direction: column;
+        img{
+          width: 100%;
+        }
       }
     }
   }

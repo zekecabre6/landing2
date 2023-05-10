@@ -4,7 +4,7 @@
   align-items: center;
   height: 80px;
   padding: 0 30px;
-  background-color: #ffffff15;
+  background-color: #FFF3F4;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.13);
   transition: height 0.3s ease-in-out;
   position: absolute;
@@ -43,15 +43,11 @@
 
         a {
           text-decoration: none;
-          color: white;
+          color: #262B44;
           font-size: 16px;
           font-weight: 500;
           transition: color 0.3s ease-in-out;
 
-
-          &:hover {
-            color: #007bff;
-          }
         }
       }
     }
