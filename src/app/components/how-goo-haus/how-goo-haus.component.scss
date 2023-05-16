@@ -47,11 +47,12 @@
       align-items: center;
       width: 100%;
       gap: 2rem;
-      video {
+      iframe {
         width: 100%;
         min-width: 350px;
         border-radius: 1.5rem;
         max-width: 900px;
+        height: 450px;
       }
       button{
         background-color: red;
@@ -85,7 +86,7 @@
         height: 60%;
       }
       .video_section {
-        video {
+        iframe {
           min-width: 300px;
         }
       }
