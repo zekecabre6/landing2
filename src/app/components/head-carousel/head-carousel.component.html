@@ -1,0 +1,9 @@
+<div class="carousel">
+  <div *ngFor="let item of carouselItems; let i = index" class="carousel__item"
+       [ngClass]="{'carousel__item--visible': currentItem === i, 'carousel__item--hide': previousItem === i}">
+    <a href="#" target="_blank" (click)="navigateToDecoGoohaus()">
+      <img [src]="item" alt="Imagen de placeholder {{i + 1}}">
+    </a>
+  </div>
+  <div class="carousel__text" *ngIf="showText">Haz click para comenzar esta experiencia</div>
+</div>

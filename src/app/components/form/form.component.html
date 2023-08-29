@@ -1,0 +1,26 @@
+<body id="form">
+
+  <div class="main-block">
+
+    <img class="image_contact" src="../../assets/img/webp/contactanos.webp" alt="" >
+
+    <form action="https://formsubmit.co/catalinalagos@goohaus.com" method="POST">
+      <h1>{{texts.form.title[lang]}}</h1>
+      <div class="info">
+        <input class="fname" type="text" name="fullName" placeholder="{{texts.form.name[lang]}}">
+        <input type="text" name="email" placeholder="{{texts.form.email[lang]}}" required>
+        <input type="text" name="phoneNumber" placeholder="{{texts.form.num[lang]}}">
+        <input type="hidden" name="_next" value="https://ezequielcabrera@goohaus.com/#form-sent">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="Tu mensaje para goohaus fue correctamente enviado!">
+      </div>
+      <label for="lang">{{texts.form.service[lang]}}</label>
+      <select name="Servicios" placeholder="Goohaus" id="lang">
+        <option value="Goohaus BUSSINES">Goohaus BUSSINES</option>
+        <option value="Goohaus BUSSINES">Goohaus PROJECTS</option>
+      </select>
+      <textarea name="message" placeholder="{{texts.form.message[lang]}}" id="" cols="4"></textarea>
+      <button type="submit">{{texts.form.btn[lang]}}</button>
+    </form>
+  </div>
+</body>

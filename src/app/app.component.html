@@ -1,10 +1,14 @@
-<app-navbar-home></app-navbar-home>
-<app-hero></app-hero>
+<app-navbar-home [lang]="lang" [langRedirect]="lang === 'es' ? 'en' : 'es'"></app-navbar-home>
+<app-head-carousel [lang]="lang"></app-head-carousel>
 <section>
-  <app-work-design></app-work-design>
-  <app-how-goo-haus></app-how-goo-haus>
-  <app-work-lines></app-work-lines>
-  <app-companies></app-companies>
-  <app-our-team></app-our-team>
+  <app-companies [lang]="lang"></app-companies>
+  <app-work-design [lang]="lang"></app-work-design>
+
+  <app-how-goo-haus [lang]="lang"></app-how-goo-haus>
+  <app-work-lines [lang]="lang"></app-work-lines>
+
+  <app-form [lang]="lang"></app-form>
+  <app-our-team [lang]="lang"></app-our-team>
 </section>
-<app-footer></app-footer>
+<app-footer [lang]="lang"></app-footer>
+<app-whatsapp></app-whatsapp>

@@ -1,0 +1,219 @@
+{
+  "companies": {
+    "title": {
+      "en": "Strategic Partners",
+      "es": "Partners Estratégicos"
+    },
+    "subtitle": {
+      "en": "Renew your home with our strategic partners",
+      "es": "Renueva tu hogar con nuestros socios estratégicos"
+    },
+    "span": {
+      "en": "Coming Soon",
+      "es": "PROXIMAMENTE"
+
+    },
+    "btn": {
+      "en": "Start Now",
+      "es": "¡Comenzar!"
+    }
+  },
+  "footer": {
+    "title": {
+      "en": "Be part of the desing revolution and say GOO to your new spaces",
+      "es": "Súmate a la revolución del diseño y dile GOO a tus nuevos espacios"
+    },
+    "subtitle": {
+      "en": "Follow us on our social Networks",
+      "es": "Siguenos en nuestras redes Sociales"
+    },
+    "span": {
+      "en": "© 2023 Goohaus. All rights reserved.",
+      "es": "© 2023 Goohaus. Todos los derechos reservados."
+
+    }
+
+  },
+  "form": {
+    "title": {
+      "en": "Contact Us!",
+      "es": "¡Contactanos!"
+    },
+    "name": {
+      "en": "Full Name",
+      "es": "Nombre completo"
+    },
+    "email": {
+      "en": "Email",
+      "es": "Email"
+
+    },
+    "num": {
+      "en": "Phone Number",
+      "es": "Numero Telefónico"
+
+    },
+    "service": {
+      "en": "Services",
+      "es": "Servicio"
+
+    },
+    "message": {
+      "en": "Leave us a message",
+      "es": "Dejenos su mensaje"
+
+    },
+    "btn": {
+      "en": "Send",
+      "es": "ENVIAR"
+
+    }
+
+  },
+  "howgoohaus": {
+    "title": {
+      "en": "How it works?",
+      "es": "¿Cómo funciona Goohaus?"
+    },
+    "subtitle": {
+      "en": "Upload the measurements and layout of your space",
+      "es": "Sube las medidas y distribución de tu espacio"
+    },
+    "subtitle1": {
+      "en": "Discover your decorative style",
+      "es": "Descubre tu estilo decorativo"
+    },
+    "subtitle2": {
+      "en": "Visialize your renovated space in 2D and 3D",
+      "es": "Visualiza tu espacio renovado en 2D y 3D"
+    },
+    "btn": {
+      "en": "Start Now!",
+      "es": "¡Comenzar!"
+    },
+    "video":{
+        "es": "../../../../../assets/img/Goohaus.mp4",
+        "en": "../../../../../assets/img/video-en.mp4"
+      }
+  },
+  "navbar": {
+    "home": {
+      "en": "Home",
+      "es": "Inicio"
+    },
+    "we": {
+      "es": "Nosotros",
+      "en": "About"
+    },
+    "services": {
+      "es": "Servicios",
+      "en": "Services"
+
+    },
+    "how": {
+      "en": "How it works?",
+      "es": "¿Cómo funciona?"
+
+    },
+    "bandera": {
+      "en": "../../../assets/img/reino-unido.png",
+      "es": "../../../assets/img/espana.png"
+    },
+    "boton": {
+      "en": "Español",
+      "es": "Inglés"
+
+    },
+    "contact": {
+      "en": "Contact",
+      "es": "Contacto"
+
+    }
+  },
+  "our": {
+    "title": {
+      "en": "Founding team",
+      "es": "Equipo fundador"
+    },
+    "subtitle": {
+      "en": "An innovative and multidisciplinary team, with a solid technological base, led by experts in architecture, decoration, business and digital services.",
+      "es": "Un equipo innovador y multidisciplinario, con una sólida base tecnológica, liderado por expertos en arquitectura decoración, negocios y servicios digitales"
+    },
+    "p": {
+      "en": "Experienced Architect, MBA, and Entrepreneur, with more than 10 years of experience. Co-founder of Sumatoria Architecture and Design Firm. With a dynamic and interdisciplinary perspective, Constanza possess a proven track record in generating and managing innovative projects within the fields of architecture and entrepreneurship.",
+      "es": "Arquitecta, MBA y emprendedora, con más de 10 años de experiencia. Cofundadora de Sumatoria, una firma de arquitectura, diseño y decoración. Constanza posee una perspectiva dinámica e interdisciplinaria, y cuenta con una trayectoria comprobada en la generación y gestión de proyectos innovadores en los campos de la arquitectura y el emprendimiento."
+
+    },
+    "b": {
+      "en": "Phone number:",
+      "es": "Celular:"
+
+    },
+    "p1": {
+      "en": "Civil Industrial Engineer, MBA, experienced professional, with over 18 years of expertise in the real estate market in Chile and Latam, focusing on consulting and transaction services. Felipe have successfully led the growth of various business units, implementing strategic planning and creating new service lines to cater to the specific client’s needs.",
+      "es": "Ingeniero Civil Industrial, MBA, profesional con más de 18 años de experiencia en el mercado inmobiliario en Chile y América Latina, enfocado en servicios de consultoría y transacciones. Felipe ha liderado exitosamente el crecimiento de varias unidades de negocios, implementando la planificación estratégica y creando nuevas líneas de servicio para satisfacer las necesidades específicas de los clientes."
+
+    },
+    "p2": {
+      "en": "Civil Industrial Engineer and Data Science Diploma holder. He excels in application development and the implementation of Machine Learning algorithms. He has great skill in resource management, business development, and the application of data science to improve operations.",
+      "es": "Ingeniero Civil Industrial y Diplomado en Ciencia de Datos. Destaca en el desarrollo de aplicaciones y la implementación de algoritmos de Machine Learning. Gran habilidad en la gestión de recursos, el desarrollo de negocios y la aplicación de la ciencia de datos para mejorar operaciones."
+
+    }
+
+  },
+  "workdesing": {
+    "title": {
+      "en": "Join the design revolution.",
+      "es": "Súmate a la revolución del diseño."
+    },
+    "subtitle": {
+      "en": "Welcome to Goohaus, the cutting-edge technological platform that empowers you to personalize your home renovations using state-of-the-art artificial intelligence.",
+      "es": "Bienvenido a Goohaus, la plataforma tecnológica que te permite renovar tu hogar de una manera personalizada a través del uso de inteligencia artificial."
+    }
+
+  },
+  "worklines": {
+    "title": {
+      "en": "Service lines",
+      "es": "Líneas de trabajo"
+    },
+    "subtitle": {
+      "en": "Renew your home with our strategic partners",
+      "es": "Transforma tu hogar con la innovadora plataforma de renovación de Goohaus"
+    },
+    "title1": {
+      "en": "Goohaus Business",
+      "es": "Goohaus Business"
+    },
+    "subtitle1": {
+      "en": "Boost retail sales with Goohaus Business Services. Our platform integrates seamlessly with your website, offering a personalized and user-friendly experience Customers can easily purchase everything they need in one transaction, increasing sales and average ticket value. With personalized home renewal recommendations Goohaus minimizes product returns and reduces costs. Elevate your retail business with Goohaus.",
+      "es": "Impulsa tus ventas con Goohaus Business. Nuestra plataforma se integra sin problemas en tu sitio web, ofreciendo una experiencia personalizada y amigable para los usuarios. Tus clientes pueden adquirir fácilmente todo lo que necesitan en una sola transacción, aumentando las ventas y el valor promedio de compra. Con nuestra tecnología basada en IA, generamos recomendaciones personalizadas para la renovación del hogar, minimizando las devoluciones de productos, reduciendo costos. Potencia tu negocio con Goohaus."
+    },
+    "btn": {
+      "en": "Contact Us",
+      "es": "Contactanos"
+
+    },
+    "title2": {
+      "en": "Goohaus Projects",
+      "es": "Goohaus Projects"
+    },
+    "subtitle2": {
+      "en": "Are you planning to renovate multiple spaces or more than one home? Partner with Goohaus Projects and enjoy the benefits of standardized apartment decoration, fast procurement, and hassle-free installations. Elevate your real estate asset management with our technology-driven solutions Experience the speed and efficiency of Goohaus Projects. we provide a streamlined solution for apartment decoration. Maximize your productivity and profitability with our comprehensive approach to decorating multiple spaces and units.",
+      "es": "¿Estás planeando renovar múltiples espacios, más de una vivienda? Asóciate con Goohaus Projects y disfruta de los beneficios de la decoración estandarizada de apartamentos, una compra rápida e instalaciones sin complicaciones. Eleva la gestión de tus activos inmobiliarios con nuestras soluciones impulsadas por tecnología. Experimenta la velocidad y eficiencia de Goohaus Projects. Ofrecemos una solución optimizada para la decoración de apartamentos. Maximiza tu productividad y rentabilidad con nuestro enfoque integral para decorar múltiples espacios y unidades."
+    },
+    "btn1": {
+      "en": "Get a Started",
+      "es": "Cotiza con nosotros"
+
+    }
+
+
+  },
+  "whatsapp":{
+    "link": {
+      "en": "https://api.whatsapp.com/send?phone=56922182480&text=Hello!%20I%20would%20like%20to%20contact%20Goohaus%F0%9F%8F%A1.",
+      "es": "https://api.whatsapp.com/send?phone=56922182480&text=Hola!%20Quiero%20contactarme%20con%20Goohaus%F0%9F%8F%A1."
+    }
+  }
+}

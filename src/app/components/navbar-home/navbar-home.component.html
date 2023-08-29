@@ -1,13 +1,31 @@
 <nav class="navbar" [ngClass]="{'scrolled': isScrolled}">
   <div class="navbar-container">
     <div class="navbar-brand">
-      <img src="assets/img/logo.svg" alt="Logo">
+      <img class="logopc" src="assets/img/webp/logo_secundario.webp" alt="Logo" style="max-height: 35px;">
+      <img class="logomovil" src="assets/img/webp/logo.webp" alt="Logo">
     </div>
-    <ul class="navbar-menu">
-      <li class="navbar-item"><a href="#">Home</a></li>
-      <li class="navbar-item"><a href="#Ourteam">Nosotros</a></li>
-      <li class="navbar-item"><a href="#support">Preguntas frecuentes</a></li>
-      <li class="navbar-item"><a href="#Contact">Contacto</a></li>
+    <img class="i" src="../../../assets/img/webp/menu.webp" (click)="toggleMenu()">
+    <ul class="navbar-menu" [ngClass]="{'show': isMenuOpen}">
+      <li class="navbar-item"><a [href]="lang+'#'" (click)="closeMenu()">{{texts.navbar.home[lang]}}</a></li>
+      <li class="navbar-item"><a [href]="lang+'#Ourteam'" (click)="closeMenu()">{{texts.navbar.we[lang]}}</a></li>
+      <li class="navbar-item"><a [href]="lang+'#services'" (click)="closeMenu()">{{texts.navbar.services[lang]}}</a></li>
+      <li class="navbar-item"><a [href]="lang+'#support'" (click)="closeMenu()">{{texts.navbar.how[lang]}}</a></li>
+      <li class="navbar-item"><a [href]="lang+'#form'" (click)="closeMenu()">{{texts.navbar.contact[lang]}}</a></li>
+      <li class="navbar-item">
+        <div class="dropdown" (click)="toggleLenguaje()">
+          <a class="dropbtn"><img style="max-width: 25px; padding-top: 10px;" src="{{texts.navbar.bandera[lang]}}" alt=""></a>
+          <div class="dropdown-content" *ngIf="isLenguajeOpen">
+            <ul>
+              <li><a [href]="langRedirect"><img style="max-width: 20px;" src="../../../assets/img/espana.png" alt="Imagen 1" (click)="closeLenguaje()">
+                  <p style="color: black;">ES</p>
+                </a></li>
+              <li><a [href]="langRedirect" (click)="closeLenguaje()"><img style="max-width: 20px;" src="../../../assets/img/reino-unido.png" alt="Imagen 2">
+                  <p style="color: black;">EN</p>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
     </ul>
   </div>
 </nav>

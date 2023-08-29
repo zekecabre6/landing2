@@ -4,4 +4,47 @@ section{
   flex-direction: column;
   gap: 5rem;
 }
+h3{
+  font-size: 8!important;
+}
+// Variables
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+// Estilos para dispositivos móviles
+@media only screen and (max-width: $breakpoint-mobile) {
+  .container {
+    padding: 10px;
+  }
 
+  // Otros estilos específicos para móviles
+  // ...
+  img{
+    max-width: 95vw;
+  }
+}
+
+// Estilos para tabletas
+@media only screen and (min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet) {
+  .container {
+    padding: 15px;
+  }
+
+  // Otros estilos específicos para tabletas
+  // ...
+  img{
+    max-width: 95vw;
+  }
+}
+
+// Estilos para pantallas más grandes (escritorio)
+@media only screen and (min-width: $breakpoint-tablet) {
+  .container {
+    padding: 20px;
+  }
+
+  // Otros estilos específicos para escritorio
+  // ...
+  img{
+    max-width: 95vw;
+  }
+}

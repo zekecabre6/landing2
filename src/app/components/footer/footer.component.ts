@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import traduc from 'src/assets/traduc.json'
+import { AvailableLanguages } from 'src/assets/types';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
@@ -6,12 +8,11 @@ import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })
-export class FooterComponent implements OnInit {
+export class FooterComponent{
 
-  constructor() { }
+  texts = traduc;
+  @Input() lang:AvailableLanguages="en";
 
-  ngOnInit(): void {
-  }
   faWhatsapp = faWhatsapp;
   faInstagram = faInstagram;
 }
